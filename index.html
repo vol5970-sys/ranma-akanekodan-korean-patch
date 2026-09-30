@@ -16,6 +16,8 @@
     .hero { position:relative; isolation:isolate; min-height:690px; padding:96px clamp(22px,5vw,72px) 58px; border-inline:1px solid #0e533c; background:linear-gradient(90deg,rgba(1,13,10,.92),rgba(1,21,15,.82)),repeating-linear-gradient(0deg,transparent 0 6px,rgba(45,240,162,.07) 7px 8px); overflow:hidden; }
     .hero::before { content:""; position:absolute; inset:24px 28px 35px; border:1px solid rgba(45,240,162,.33); border-bottom-color:transparent; pointer-events:none; }
     .hero::after { content:""; position:absolute; inset:0; z-index:-1; background:radial-gradient(circle at 75% 80%,rgba(10,115,64,.16),transparent 55%); }
+    .site-url { position:absolute; top:28px; left:clamp(22px,5vw,72px); right:clamp(22px,5vw,72px); color:var(--mint); font-size:clamp(11px,1.25vw,14px); font-weight:700; overflow-wrap:anywhere; }
+    .site-url a { color:inherit; text-decoration:underline; text-underline-offset:3px; }
     .eyebrow { color:var(--mint); font-size:clamp(13px,1.55vw,19px); font-weight:900; letter-spacing:.22em; text-transform:uppercase; }
     .version { margin-top:20px; color:var(--muted); font-size:clamp(15px,2vw,22px); letter-spacing:.14em; }
     .version strong { color:var(--orange); font-size:1.18em; }
@@ -57,6 +59,7 @@
 <body>
   <div class="shell">
     <header class="hero">
+      <div class="site-url">주소: <a href="https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/">https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/</a></div>
       <div class="eyebrow">FAN TRANSLATION PROJECT</div>
       <div class="version">RELEASE <strong>V0.7</strong> · CURRENT REVIEW</div>
       <h1>란마 1/2<br>한국어 패치</h1>
