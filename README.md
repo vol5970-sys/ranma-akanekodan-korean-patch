@@ -2,7 +2,11 @@
 
 이 배포본에는 **패치 파일만** 들어 있습니다. 게임 ROM은 포함하지 않습니다.
 
-[프로젝트 소개 페이지](https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/) · [IPS 직접 받기](https://github.com/vol5970-sys/ranma-akanekodan-korean-patch/releases/download/v0.7/ranma_korean_v0.7.ips) · [기술 분석](TECHNICAL_NOTES.md) · [검수 현황](QA_STATUS.md)
+프로젝트 주소: <https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/>
+
+IPS 직접 다운로드: <https://github.com/vol5970-sys/ranma-akanekodan-korean-patch/releases/download/v0.7/ranma_korean_v0.7.ips>
+
+자료: [기술 분석](TECHNICAL_NOTES.md) · [검수 현황](QA_STATUS.md)
 
 BAT 파일은 필요하지 않습니다. IPS 패치 도구로 직접 적용하세요.
 
