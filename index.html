@@ -26,6 +26,11 @@
     .button:hover,.button:focus-visible { transform:translateY(-3px); background:rgba(45,240,162,.13); outline:2px solid var(--mint); outline-offset:3px; }
     .button.primary { background:var(--mint); color:#05251a; }
     .button.primary:hover,.button.primary:focus-visible { background:#76ffc2; }
+    .visible-addresses { margin-top:30px; padding:18px 20px; border:1px solid rgba(45,240,162,.4); background:rgba(2,19,13,.72); }
+    .visible-addresses p { margin:0; color:var(--muted); font-size:clamp(13px,1.35vw,16px); line-height:1.7; overflow-wrap:anywhere; }
+    .visible-addresses p + p { margin-top:12px; }
+    .visible-addresses strong { display:block; color:var(--mint); font-size:.9em; letter-spacing:.07em; }
+    .visible-addresses a { color:var(--text); text-decoration:underline; text-decoration-color:var(--mint); text-underline-offset:3px; }
     .stats { display:grid; grid-template-columns:repeat(3,1fr); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
     .stat { padding:39px clamp(22px,4vw,56px); min-height:176px; border-right:1px solid var(--line); }
     .stat:first-child { border-left:1px solid var(--line); }
@@ -60,6 +65,10 @@
         <a class="button primary" href="https://github.com/vol5970-sys/ranma-akanekodan-korean-patch/releases/download/v0.7/ranma_korean_v0.7.ips">IPS 패치 받기</a>
         <a class="button" href="#apply">적용 방법 보기</a>
       </nav>
+      <div class="visible-addresses" aria-label="주소">
+        <p><strong>프로젝트 페이지 주소</strong><a href="https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/">https://vol5970-sys.github.io/ranma-akanekodan-korean-patch/</a></p>
+        <p><strong>IPS 직접 다운로드 주소</strong><a href="https://github.com/vol5970-sys/ranma-akanekodan-korean-patch/releases/download/v0.7/ranma_korean_v0.7.ips">https://github.com/vol5970-sys/ranma-akanekodan-korean-patch/releases/download/v0.7/ranma_korean_v0.7.ips</a></p>
+      </div>
     </header>
     <div class="stats" aria-label="버전 및 자동 검사 현황">
       <div class="stat"><strong>v0.7</strong><span>현재 공개 시험판</span></div>
